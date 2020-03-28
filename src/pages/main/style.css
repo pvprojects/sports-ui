@@ -4,7 +4,7 @@
     padding: 0 20px;
 }
 
-.user-list article{
+.user-list article {
     background: #ffffff;
     border: 1px solid #DDD;
     border-radius: 5px;
@@ -35,18 +35,18 @@
     transition: all 0.2s;
 }
 
-.user-list article a:hover{
+.user-list article a:hover {
     background: #da552f;
     color: #FFF;
 }
 
-.user-list .actions{
+.user-list .actions {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.user-list .actions button{
+.user-list .actions button {
     padding: 10px;
     border-radius: 5px;
     border: 0;
@@ -57,6 +57,6 @@
     cursor: pointer;
 }
 
-.user-list .actions button:hover{
+.user-list .actions button:hover {
     opacity: 0.7;
 }
