@@ -13,11 +13,14 @@
 ### Executar o projeto
 
 1 - Clonar o projeto, em um repositorio local
+
 2 - Via terminal, entrar na pasta do projeto
+
 3 - Executar:
  ```
  npm install 
  ```
+ 
 4 - Apos instalar as dependencias do projeto, execute o start:
  ```
  npm run start
