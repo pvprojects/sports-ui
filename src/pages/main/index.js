@@ -37,8 +37,9 @@ export default class Main extends Component{
         <div className="user-list">
             {users.map(user =>(
                 <article key = {user.id}>
-                    <strong>{user.fullName}</strong>
-                    <p>{user.userStatusEnum}</p>
+                    <strong>{user.name}</strong>
+                    <p>{user.email}</p>
+                    <p>{user.typeUserEnum}</p>
                     <a href="">Acessar</a>
                 </article>
             ))}
