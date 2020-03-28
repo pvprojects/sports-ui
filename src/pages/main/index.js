@@ -41,7 +41,7 @@ export default class Main extends Component {
                         <strong>{user.name}</strong>
                         <p>{user.email}</p>
                         <p>{user.typeUserEnum}</p>
-                        <Link to={`/address/${user.addressId}`}>Acessar</Link>
+                        <Link to={`/address/${user.addressId}`}>Endereço</Link>
                     </article>
                 ))}
                 <div className="actions">
